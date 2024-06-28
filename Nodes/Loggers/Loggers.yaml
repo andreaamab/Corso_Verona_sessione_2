@@ -12,7 +12,7 @@ Children:
   - Name: Store
     Type: NodePointer
     DataType: NodeId
-    Value: "/Objects/Corso_Verona_sessione_2/DataStores/DatabaseInterno1"
+    Value: "/Objects/Corso_Verona_sessione_2/Recipes/SchemaRicetta1/DatabaseInterno1"
     Children:
     - Name: Kind
       Type: PropertyType

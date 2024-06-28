@@ -1,2 +1,218 @@
 Name: Recipes
 Type: RecipesCategoryFolder
+Children:
+- Name: SchemaRicetta1
+  Id: g=412016ee188071fdeae5ea3f46d5dc58
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: Variabile1
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Variabile2
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: Variabile3
+      Type: BaseDataVariableType
+      DataType: String
+  - Class: Reference
+    Target: ns=25;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=60
+    Direction: Forward
+  - Name: DatabaseInterno1
+    Id: g=105c994e37d0a56eb37ac8b4d65ae4a5
+    Type: SQLiteStore
+    Children:
+    - Name: Tables
+      Type: BaseObjectType
+      Children:
+      - Name: LoggerDeiDati1
+        Id: g=f2e03d38d3831baf78f27f3ae0090d83
+        Type: SQLiteStoreTable
+        Children:
+        - Class: Reference
+          Target: ns=9;i=12
+          Direction: Forward
+        - Class: Reference
+          Target: ns=9;i=15
+          Direction: Forward
+        - Class: Reference
+          Target: ns=9;i=21
+          Direction: Forward
+        - Class: Reference
+          Target: ns=9;i=20
+          Direction: Forward
+        - Name: Columns
+          Type: BaseObjectType
+          Children:
+          - Name: Timestamp
+            Type: StoreColumn
+            DataType: UtcTime
+          - Name: LocalTimestamp
+            Type: StoreColumn
+            DataType: DateTime
+          - Name: Variabile1
+            Type: StoreColumn
+            DataType: Int32
+          - Name: Variabile2
+            Type: StoreColumn
+            DataType: Float
+          - Name: Variabile3
+            Type: StoreColumn
+            DataType: String
+      - Name: SchemaRicetta1
+        Type: SQLiteStoreTable
+        Children:
+        - Class: Reference
+          Target: ns=9;i=12
+          Direction: Forward
+        - Class: Reference
+          Target: ns=9;i=15
+          Direction: Forward
+        - Class: Reference
+          Target: ns=9;i=21
+          Direction: Forward
+        - Class: Reference
+          Target: ns=9;i=20
+          Direction: Forward
+        - Name: Columns
+          Type: BaseObjectType
+          Children:
+          - Name: Name
+            Type: StoreColumn
+            DataType: String
+          - Name: /Variabile1
+            Type: StoreColumn
+            DataType: Int32
+          - Name: /Variabile2
+            Type: StoreColumn
+            DataType: Float
+          - Name: /Variabile3
+            Type: StoreColumn
+            DataType: String
+    - Class: Reference
+      Target: ns=11;i=30
+      Direction: Forward
+    - Class: Reference
+      Target: ns=11;i=33
+      Direction: Forward
+    - Name: MaxColumnNameLength
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+    - Name: MaxColumnCount
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+    - Name: DataTypeCompatibilityMap
+      Type: BaseDataVariableType
+      DataType: NodeId
+      AccessLevel: Read
+      ValueRank: OneOrMoreDimensions
+      ArrayDimensions: [0,0]
+    - Name: Status
+      Type: PropertyType
+      DataType: StoreStatus
+      AccessLevel: Read
+      Value: 2
+    - Class: Reference
+      Target: ns=9;i=22
+      Direction: Forward
+    - Class: Reference
+      Target: ns=9;i=6
+      Direction: Forward
+    - Class: Reference
+      Target: ns=9;i=8
+      Direction: Forward
+    - Class: Reference
+      Target: ns=9;i=25
+      Direction: Forward
+    - Class: Reference
+      Target: ns=9;i=38
+      Direction: Forward
+    - Class: Reference
+      Target: ns=9;i=41
+      Direction: Forward
+    - Class: Reference
+      Target: ns=9;i=44
+      Direction: Forward
+    - Class: Reference
+      Target: ns=9;i=53
+      Direction: Forward
+    - Class: Reference
+      Target: ns=9;i=55
+      Direction: Forward
+    - Class: Reference
+      Target: ns=9;i=57
+      Direction: Forward
+    - Class: Reference
+      Target: ns=9;i=59
+      Direction: Forward
+    - Name: Filename
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VeronaDB"
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Corso_Verona_sessione_2/Recipes/SchemaRicetta1/DatabaseInterno1"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Corso_Verona_sessione_2/Model"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: EditModel
+    Id: g=73d155d501b8a28864871ce7fd0f5a98
+    Type: BaseObjectType
+    Children:
+    - Name: Variabile1
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Variabile2
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: Variabile3
+      Type: BaseDataVariableType
+      DataType: String

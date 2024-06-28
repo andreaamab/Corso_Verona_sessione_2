@@ -62,3 +62,12 @@ Children:
 - File: System/System.yaml
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
+- Name: SchemaRicetta1
+  Type: Alias
+  DataType: NodeId
+  Value: "/Objects/Corso_Verona_sessione_2/Recipes/SchemaRicetta1/EditModel"
+  Children:
+  - Name: Kind
+    Type: PropertyType
+    DataType: NodeId
+    Value: "/Objects/Corso_Verona_sessione_2/Recipes/SchemaRicetta1/EditModel"

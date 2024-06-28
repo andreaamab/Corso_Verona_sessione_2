@@ -1,13 +1,17 @@
 Name: Model
+Id: g=f06c2fbaed1ea53ae6a637cd05b15855
 Type: ModelCategoryFolder
 Children:
 - Name: Variabile1
+  Id: g=944b4dcf30b3b1e7c696638c78f6a1b1
   Type: BaseDataVariableType
   DataType: Int32
 - Name: Variabile2
+  Id: g=5b75bc3f008091f8fe063b77c15b8503
   Type: BaseDataVariableType
   DataType: Float
 - Name: Variabile3
+  Id: g=f602ffa03f094ccc973e0630b43e2653
   Type: BaseDataVariableType
   DataType: String
   Value: "0"
