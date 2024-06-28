@@ -9,6 +9,7 @@ Children:
     Type: BaseObjectType
     Children:
     - Name: LoggerDeiDati1
+      Id: g=f2e03d38d3831baf78f27f3ae0090d83
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
