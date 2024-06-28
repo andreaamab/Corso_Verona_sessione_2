@@ -9,8 +9,9 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [1,3],
+    "Dimensions": [2,3],
     "Body": [
-     "","en-US","it-IT"
+     "","en-US","it-IT",
+     "Connected to Station:","Connected to Station:","Connesso alla stazione:"
     ]
    }
