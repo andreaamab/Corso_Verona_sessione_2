@@ -1,0 +1,4 @@
+Name: Trend
+Type: FolderType
+Children:
+- File: AdvancedTrend/AdvancedTrend.yaml

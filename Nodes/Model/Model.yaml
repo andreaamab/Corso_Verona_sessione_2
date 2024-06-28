@@ -11,3 +11,6 @@ Children:
   Type: BaseDataVariableType
   DataType: String
   Value: "0"
+- Name: Variabile4
+  Type: BaseDataVariableType
+  DataType: Int32

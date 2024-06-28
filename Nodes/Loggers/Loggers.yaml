@@ -2,6 +2,7 @@ Name: Loggers
 Type: LoggersCategoryFolder
 Children:
 - Name: LoggerDeiDati1
+  Id: g=e52db2e86914e47a7721d1cfedb052b8
   Type: DataLogger
   Children:
   - Name: SamplingMode
